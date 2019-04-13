@@ -1,6 +1,6 @@
 exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['Actions.js'],
+    specs: ['formSubmittion.js'],
     capabilities: {
         'browserName': 'chrome'
       }
