@@ -1,0 +1,23 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "This is for to learn the locators and assertions.",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "5.3.1",
+    "jasmine": "3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Anup1989/ProtractorExcersises.git"
+  },
+  "author": "Anup Kapale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anup1989/ProtractorExcersises/issues"
+  },
+  "homepage": "https://github.com/Anup1989/ProtractorExcersises#readme"
+}
