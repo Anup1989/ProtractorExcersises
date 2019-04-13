@@ -10,6 +10,17 @@ describe("Open Pratractor designed TestSuite",function(){
         element(by.css("input[type='checkbox]")).click();
         element(by.cssContainingText("[id='exampleFormControlSelect1'] option","Female")).click();
 
+        
+        element.all(by.name("inlineRadioOptions")).first().click();
+        element(by.buttonText('Submit')).click().then(function(){
+
+            element(by.class("div[class='success']")).getText().then(function(text){
+                console.log(text);
+            })
+        });
+
+        
+
     })
 
     it("Should validate the provided input fields",function(){
