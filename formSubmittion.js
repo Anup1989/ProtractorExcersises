@@ -5,6 +5,11 @@ describe("Open Pratractor designed TestSuite",function(){
 
         element(by.name("name")).sendKeys("Anup");
         element(by.css("input[name='email')")).sendKeys("anup@test.com");
+        element(by.id("exampleInputPassword1")).sendKeys("Test123");
+
+        element(by.css("input[type='checkbox]")).click();
+        element(by.cssContainingText("[id='exampleFormControlSelect1'] option","Female")).click();
+
     })
 
     it("Should validate the provided input fields",function(){
