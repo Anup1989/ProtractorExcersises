@@ -29,11 +29,12 @@ describe("Open Pratractor designed TestSuite",function(){
             console.log("The Test Case has been passed.");
          }
 
-
+         //This is to check whether the conditons are working as expected.
          if(errormessage1!= errormessage && errormessage1 == errormessage){
             console.log("The Error has been captured and the valiadtion is working properly");
          }else{
             console.log("Validation failed");
+
          }
         });
 
